@@ -21,6 +21,11 @@
     <%= form.text_area :body %>
   </div>
 
+  <div class="field">
+    <%= form.label :image_url %><br />
+    <%= form.text_field :image_url, class: 'simple-file-upload' %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
